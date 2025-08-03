@@ -14,7 +14,7 @@
 </p>
 
 <div align="center">
-  <img src="https://i.ibb.co/RQ28H2p/banner.png" width="90%">
+  <img src="https://i.ibb.co/RQ28H2p/banner.png" width="90%" alt="Project Banner">
 </div>
 
 ---
@@ -22,12 +22,9 @@
 <h3 align="center">👑 Maintained by: <strong>Masum Chowdhury</strong></h3>
 
 <p align="center">
-  <a href="https://www.facebook.com/profile.php?id=100094007219565" target="_blank">
-    <img src="https://i.imgur.com/UM3ekFf.jpeg" width="100" alt="Facebook profile photo">
-  </a>
-  <br>
-  📘 <strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100094007219565">Masum Chowdhury</a>
-  <br>
+  <img src="https://i.postimg.cc/vH66LNtS/In-Shot-20250802-030056724.jpg" width="300" alt="Masum Chowdhury Profile">
+  <br><br>
+  📘 <strong>Facebook:</strong> <a href="https://www.facebook.com/profile.php?id=100094007219565">Masum Chowdhury (Milon)</a><br>
   📸 <strong>Instagram:</strong> <a href="https://www.instagram.com/4masum4">@4masum4</a>
 </p>
 
