@@ -1,20 +1,3 @@
-{
-  "admin_card": {
-    "profile_image": "https://i.postimg.cc/vH66LNtS/In-Shot-20250802-030056724.jpg",
-    "name": "Masum Chowdhury",
-    "gender": "Male",
-    "birthday": "Private (June 5)",
-    "religion": "Islam",
-    "relationship_status": "Single Pro Max",
-    "address": "Noakhali, Bangladesh",
-    "social_links": {
-      "facebook_main": "https://www.facebook.com/4Masum4",
-      "facebook_alt": "https://www.facebook.com/masum.chowdhury.254537",
-      "instagram": "https://www.instagram.com/4masum4"
-    }
-  }
-}
-
 <h1 align="center">
   <img src="https://i.imgur.com/ZfuZrPc.jpeg" width="22px" alt="icon">
   Goat Bot - Bot Chat Messenger
