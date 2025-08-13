@@ -1,44 +1,66 @@
-module.exports.config = {
-  name: "admin",
-  version: "1.0.0",
-  role: 0,
-  author: "Masum Chowdhury",
-  description: "Show owner/admin info",
-  usages: "admin | masum | info | owner",
-  cooldowns: 5,
-  aliases: ["masum", "info", "owner"]
-};
+<p align="center">
+  <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner">
+</p>
 
-module.exports.run = async ({ api, event }) => {
-  const ownerInfo = `
-╭───[ 🌟 OWNER INFO 🌟 ]───╮
-👤 Name: Masum Chowdhury
-♂️ Gender: Male
-❤️ Relation: single pro max
-🎂 Age: Private (June 5)
-☪️ Religion: Islam
-🏠 Address: Noakhali, Bangladesh
-📌 Facebook: facebook.com/4Masum4
-📌 Instagram: instagram.com/4masum4
+<h1 align="center">
+  <img src="https://i.imgur.com/ZfuZrPc.jpeg" width="22" alt="icon">
+  Goat Bot – Bot Chat Messenger
+</h1>
 
-📌 UID List:
-1️⃣ Main: 61561677212620
-2️⃣ Alt 1: 100094007219565
-3️⃣ Alt 2: 100086505613769
-╰──────────────────────────╯
-`;
+<p align="center">
+  <a href="https://nodejs.org/dist/v16.20.0">
+    <img src="https://img.shields.io/badge/Nodejs%20Support-16.x-brightgreen.svg?style=flat-square" alt="Nodejs Support v16.x">
+  </a>
+  <img alt="size" src="https://img.shields.io/github/repo-size/ntkhang03/Goat-Bot-V2.svg?style=flat-square&label=size">
+  <img alt="code-version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=code%20version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=flat-square">
+  <img alt="visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=ntkhang3.Goat-Bot-V2">
+  <img alt="license" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
+</p>
 
-  // ছবির ডিরেক্ট লিংক
-  const ownerCardImg = "https://i.postimg.cc/fT4V5h7R/owner-info-masum.jpg"; // Neon Owner Info
-  const profileCollageImg = "https://i.postimg.cc/j5xDLqVx/profile-collage-masum.jpg"; // FB + IG Profile Collage
+---
 
-  api.sendMessage(
-    { body: ownerInfo, attachment: await Promise.all([
-        global.utils.getStreamFromURL(ownerCardImg),
-        global.utils.getStreamFromURL(profileCollageImg)
-      ])
-    },
-    event.threadID,
-    event.messageID
-  );
-};
+### Credits
+- **Original Author:** Ntkhang  
+- **Current Maintainer / Admin:** **Masum Chowdhury**
+
+> If you find any issues, please open an issue or pull request.
+
+---
+
+## Owner Info (Masum Chowdhury)
+
+<p align="center">
+  <img src="https://i.postimg.cc/fT4V5h7R/owner-info-masum.jpg" alt="Owner Info – Masum Chowdhury" width="480">
+</p>
+
+**Name:** Masum Chowdhury  
+**Gender:** Male  
+**Relation:** single pro max  
+**Age:** Private (June 5)  
+**Religion:** Islam  
+**Address:** Noakhali, Bangladesh  
+**Facebook ID Name:** Masum Chowdhury  
+**Instagram:** `@4masum4`
+
+### Admin UIDs
+- **Main:** `61561677212620`  
+- **Alt 1:** `100094007219565`  
+- **Alt 2:** `100086505613769`
+
+---
+
+## Social Links
+- **Facebook:** <a href="https://www.facebook.com/4Masum4" target="_blank" rel="noopener noreferrer">facebook.com/4Masum4</a>  
+- **Instagram:** <a href="https://www.instagram.com/4masum4" target="_blank" rel="noopener noreferrer">instagram.com/4masum4</a>
+
+<p align="center">
+  <img src="https://i.postimg.cc/j5xDLqVx/profile-collage-masum.jpg" alt="Facebook & Instagram Profile Collage" width="640">
+</p>
+
+---
+
+## Quick Start
+```bash
+# Node.js 16.x recommended
+npm install
+npm run start
