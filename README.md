@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner">
+  <img src="https://i.ibb.co/0Q5G9K8/aura-bot-banner.png" alt="Aura Bot Banner">
 </p>
 
 <h1 align="center">
   <img src="https://i.imgur.com/ZfuZrPc.jpeg" width="22" alt="icon">
-  Goat Bot – Bot Chat Messenger
+  Aura Bot – Bot Chat Messenger
 </h1>
 
 <p align="center">
@@ -30,7 +30,7 @@
 ## Owner Info (Masum Chowdhury)
 
 <p align="center">
-  <img src="https://i.postimg.cc/fT4V5h7R/owner-info-masum.jpg" alt="Owner Info – Masum Chowdhury" width="480">
+  <img src="https://i.postimg.cc/433NJhMQ/In-Shot-20250730-031404895.jpg" alt="Owner Admin – Masum Chowdhury" width="480">
 </p>
 
 **Name:** Masum Chowdhury  
@@ -43,19 +43,20 @@
 **Instagram:** `@4masum4`
 
 ### Admin UIDs
-- **Main:** `61561677212620`  
-- **Alt 1:** `100094007219565`  
-- **Alt 2:** `100086505613769`
+- **Main:** `100094007219565`  
+- **Alt 1:** `100086505613769`  
+- **Alt 2:** (Extra slot)
 
 ---
 
-## Social Links
+## Social Links & Profile Pic
+- **Facebook / Instagram Pic:**  
+<p align="center">
+  <img src="https://i.postimg.cc/cCGS8KDj/In-Shot-20250802-030056724.jpg" alt="FB/IG Profile Pic" width="480">
+</p>
+
 - **Facebook:** <a href="https://www.facebook.com/4Masum4" target="_blank" rel="noopener noreferrer">facebook.com/4Masum4</a>  
 - **Instagram:** <a href="https://www.instagram.com/4masum4" target="_blank" rel="noopener noreferrer">instagram.com/4masum4</a>
-
-<p align="center">
-  <img src="https://i.postimg.cc/j5xDLqVx/profile-collage-masum.jpg" alt="Facebook & Instagram Profile Collage" width="640">
-</p>
 
 ---
 
