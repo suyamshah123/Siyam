@@ -5,7 +5,7 @@ const OWNER_ID = "100074722578899"; // তোমার ফেসবুক আই
 
 module.exports = {
   config: {
-    name: "kamla",
+    name: "kmla",
     version: "1.0",
     author: "SI Y AM ",
     description: "Tag someone to kamla-mode and insult them automatically when they chat",
