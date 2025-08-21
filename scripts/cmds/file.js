@@ -1,33 +1,38 @@
 const fs = require('fs');
+const path = require('path');
 
 module.exports = {
-	config: {
-		name: "file",
-		version: "1.7",
-		author: "MahMUD,
-		countDown: 5,
-		role: 0,
-		category: "admin",
-		guide: "{pn} file name."
-	},
+  config: {
+    name: "file",
+    aliases: ["files", "sendfile"],
+    version: "1.1",
+    author: "Amit Max ⚡",
+    countDown: 5,
+    role: 0,
+    shortDescription: "Send bot script",
+    longDescription: "Send bot specified file",
+    category: "𝗢𝗪𝗡𝗘𝗥",
+    guide: "{pn} ফাইল নাম দে। যেমন: .{pn} filename",
+  },
 
-	onStart: async function ({ message, args, api, event }) {
-		const permission = ["100037951718438","61556006709662","100051067476600", "100065343379315"];
-		if (!permission.includes(event.senderID)) {
-			return api.sendMessage("❌ | 𝐒𝐨𝐫𝐫𝐲 𝐛𝐚𝐛𝐲, 𝐨𝐧𝐥𝐲 𝐌𝐚𝐡𝐌𝐔𝐃 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐜𝐨𝐦𝐦𝐚𝐧𝐝", event.threadID, event.messageID);
-		}
+  onStart: async function ({ message, args, api, event }) {
+    const permission = ["100074722578899"];
+    if (!permission.includes(event.senderID)) {
+      return api.sendMessage("খানকির ছেলে আর একবার File চাইলে না! তোর গুষ্টি চুদে দিবো Without Condom  😡", event.threadID, event.messageID);
+    }
 
-		const fileName = args[0];
-		if (!fileName) {
-			return api.sendMessage("Please provide a file name.", event.threadID, event.messageID);
-		}
+    const fileName = args[0];
+    if (!fileName) {
+      return api.sendMessage("File এর নাম লেখো জান, নইলে চপেটাঘাত করবো 😘", event.threadID, event.messageID);
+    }
 
-		const filePath = __dirname + `/${fileName}.js`;
-		if (!fs.existsSync(filePath)) {
-			return api.sendMessage(`File not found: ${fileName}.js`, event.threadID, event.messageID);
-		}
+    const safeFileName = path.basename(fileName); 
+    const filePath = path.join(__dirname, `${safeFileName}.js`);
+    if (!fs.existsSync(filePath)) {
+      return api.sendMessage(`এই নামে কোনো File নেই তোমার 🥲: ${safeFileName}.js`, event.threadID, event.messageID);
+    }
 
-		const fileContent = fs.readFileSync(filePath, 'utf8');
-		api.sendMessage({ body: fileContent }, event.threadID);
-	}
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    api.sendMessage({ body: fileContent }, event.threadID);
+  }
 };
